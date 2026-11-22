@@ -1,0 +1,7 @@
+*.csv -text
+*.json -text
+*.jsonl -text
+*.bin binary
+*.sqlite3 binary
+*.pickle binary
+*.pyc binary

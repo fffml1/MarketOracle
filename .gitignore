@@ -14,5 +14,5 @@ logs/
 *.log
 /cninfo_pdf/
 /cninfo_notice_list.csv
-/backend/data/*/
-/backend/data/*.csv
+/backend/data/**/*.[pP][dD][fF]
+/docs/implementation-plans/

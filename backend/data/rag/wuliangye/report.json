@@ -1,0 +1,748 @@
+{
+  "parser": "pdfplumber/0.11.9",
+  "rule_version": "2",
+  "seconds": 370.218,
+  "integrity": {
+    "announcements": 52,
+    "verified_pdfs": 52,
+    "physical_pages": 1721,
+    "inventory_page_errors": 0,
+    "document_errors": {}
+  },
+  "sample_status": {
+    "部分解析": 1141,
+    "已全部解析": 381,
+    "全部跳过": 199
+  },
+  "unsampled_pages": 0,
+  "fragments": {
+    "正文": 6070,
+    "表格行": 3504,
+    "更正行": 89
+  },
+  "cross_page_table_rows": 292,
+  "skip_reasons": {
+    "T02_表头或口径不明": 11754,
+    "T06_数值格式或错列": 7,
+    "T08_表格无候选数值": 963,
+    "T03_列位置不匹配": 775,
+    "T04_数值缺少单位": 89,
+    "T05_数值单位冲突": 257,
+    "P02_疑似表外数字行": 97,
+    "T01_指标缺失": 44
+  },
+  "by_company_and_template": [
+    {
+      "company": "五粮液",
+      "template": "一季度",
+      "sample_pages": 67,
+      "pages_with_tables": 67,
+      "candidate_rows": 940,
+      "accepted_rows": 158,
+      "skipped_rows": 782,
+      "suspected_financial_pages_without_candidates": 0,
+      "fallback_attempts": 0,
+      "parse_seconds": 16.313,
+      "skip_reasons": {
+        "T06_数值格式或错列": 4,
+        "T02_表头或口径不明": 778,
+        "T08_表格无候选数值": 7
+      }
+    },
+    {
+      "company": "五粮液",
+      "template": "三季度",
+      "sample_pages": 69,
+      "pages_with_tables": 66,
+      "candidate_rows": 927,
+      "accepted_rows": 127,
+      "skipped_rows": 800,
+      "suspected_financial_pages_without_candidates": 2,
+      "fallback_attempts": 0,
+      "parse_seconds": 14.763,
+      "skip_reasons": {
+        "T08_表格无候选数值": 7,
+        "T02_表头或口径不明": 793,
+        "T06_数值格式或错列": 1,
+        "T03_列位置不匹配": 6
+      }
+    },
+    {
+      "company": "五粮液",
+      "template": "业绩预告与快报",
+      "sample_pages": 2,
+      "pages_with_tables": 1,
+      "candidate_rows": 0,
+      "accepted_rows": 0,
+      "skipped_rows": 0,
+      "suspected_financial_pages_without_candidates": 1,
+      "fallback_attempts": 0,
+      "parse_seconds": 0.078,
+      "skip_reasons": {
+        "T08_表格无候选数值": 1
+      }
+    },
+    {
+      "company": "五粮液",
+      "template": "分红",
+      "sample_pages": 38,
+      "pages_with_tables": 12,
+      "candidate_rows": 40,
+      "accepted_rows": 2,
+      "skipped_rows": 38,
+      "suspected_financial_pages_without_candidates": 1,
+      "fallback_attempts": 0,
+      "parse_seconds": 2.593,
+      "skip_reasons": {
+        "T02_表头或口径不明": 38
+      }
+    },
+    {
+      "company": "五粮液",
+      "template": "半年度",
+      "sample_pages": 753,
+      "pages_with_tables": 616,
+      "candidate_rows": 7357,
+      "accepted_rows": 1695,
+      "skipped_rows": 5662,
+      "suspected_financial_pages_without_candidates": 79,
+      "fallback_attempts": 0,
+      "parse_seconds": 156.638,
+      "skip_reasons": {
+        "T08_表格无候选数值": 415,
+        "T02_表头或口径不明": 4982,
+        "T05_数值单位冲突": 149,
+        "T04_数值缺少单位": 45,
+        "T03_列位置不匹配": 462,
+        "P02_疑似表外数字行": 44,
+        "T01_指标缺失": 24
+      }
+    },
+    {
+      "company": "五粮液",
+      "template": "回购与增减持",
+      "sample_pages": 29,
+      "pages_with_tables": 5,
+      "candidate_rows": 14,
+      "accepted_rows": 0,
+      "skipped_rows": 14,
+      "suspected_financial_pages_without_candidates": 0,
+      "fallback_attempts": 0,
+      "parse_seconds": 1.642,
+      "skip_reasons": {
+        "T02_表头或口径不明": 14
+      }
+    },
+    {
+      "company": "五粮液",
+      "template": "年报",
+      "sample_pages": 741,
+      "pages_with_tables": 627,
+      "candidate_rows": 7145,
+      "accepted_rows": 1522,
+      "skipped_rows": 5623,
+      "suspected_financial_pages_without_candidates": 82,
+      "fallback_attempts": 0,
+      "parse_seconds": 162.122,
+      "skip_reasons": {
+        "T08_表格无候选数值": 533,
+        "T02_表头或口径不明": 5142,
+        "T03_列位置不匹配": 307,
+        "T04_数值缺少单位": 44,
+        "T05_数值单位冲突": 108,
+        "P02_疑似表外数字行": 53,
+        "T06_数值格式或错列": 2,
+        "T01_指标缺失": 20
+      }
+    },
+    {
+      "company": "五粮液",
+      "template": "经营与重大投资",
+      "sample_pages": 16,
+      "pages_with_tables": 0,
+      "candidate_rows": 0,
+      "accepted_rows": 0,
+      "skipped_rows": 0,
+      "suspected_financial_pages_without_candidates": 0,
+      "fallback_attempts": 0,
+      "parse_seconds": 1.265,
+      "skip_reasons": {}
+    },
+    {
+      "company": "五粮液",
+      "template": "补充更正",
+      "sample_pages": 6,
+      "pages_with_tables": 4,
+      "candidate_rows": 96,
+      "accepted_rows": 89,
+      "skipped_rows": 7,
+      "suspected_financial_pages_without_candidates": 1,
+      "fallback_attempts": 0,
+      "parse_seconds": 1.078,
+      "skip_reasons": {
+        "T02_表头或口径不明": 7
+      }
+    }
+  ],
+  "metric_coverage": [
+    {
+      "company": "五粮液",
+      "period": "2022年一季度",
+      "announcement_id": "1213222175",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2022-04-29/1213222175.PDF",
+      "metrics": {
+        "营业收入": [
+          1,
+          6
+        ],
+        "归母净利润": [
+          1
+        ],
+        "经营现金流量净额": [
+          1
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2022年一季度",
+      "announcement_id": "1213222203",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2022-04-29/1213222203.PDF",
+      "metrics": {
+        "营业收入": [
+          1,
+          6
+        ],
+        "归母净利润": [
+          1
+        ],
+        "经营现金流量净额": [
+          1
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2021年度",
+      "announcement_id": "1213222211",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2022-04-29/1213222211.PDF",
+      "metrics": {
+        "营业收入": [
+          6,
+          63
+        ],
+        "归母净利润": [
+          6
+        ],
+        "经营现金流量净额": [
+          6,
+          18
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2022年半年度",
+      "announcement_id": "1214404547",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2022-08-26/1214404547.PDF",
+      "metrics": {
+        "营业收入": [
+          7,
+          13,
+          39
+        ],
+        "归母净利润": [
+          7
+        ],
+        "经营现金流量净额": [
+          7,
+          13
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2022年三季度",
+      "announcement_id": "1214937743",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2022-10-28/1214937743.PDF",
+      "metrics": {
+        "营业收入": [
+          1,
+          7
+        ],
+        "归母净利润": [
+          1
+        ],
+        "经营现金流量净额": [
+          1
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2022年度",
+      "announcement_id": "1216689063",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2023-04-29/1216689063.PDF",
+      "metrics": {
+        "营业收入": [
+          7,
+          59
+        ],
+        "归母净利润": [
+          7
+        ],
+        "经营现金流量净额": [
+          7,
+          17
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2023年一季度",
+      "announcement_id": "1216689105",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2023-04-29/1216689105.PDF",
+      "metrics": {
+        "营业收入": [
+          1,
+          6
+        ],
+        "归母净利润": [
+          1
+        ],
+        "经营现金流量净额": [
+          1
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2023年半年度",
+      "announcement_id": "1217652602",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2023-08-26/1217652602.PDF",
+      "metrics": {
+        "营业收入": [
+          7,
+          12,
+          35
+        ],
+        "归母净利润": [
+          7
+        ],
+        "经营现金流量净额": [
+          7,
+          12
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2023年三季度",
+      "announcement_id": "1218182838",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2023-10-28/1218182838.PDF",
+      "metrics": {
+        "营业收入": [
+          7
+        ],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2024年一季度",
+      "announcement_id": "1219873652",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873652.PDF",
+      "metrics": {
+        "营业收入": [
+          1,
+          6
+        ],
+        "归母净利润": [
+          1
+        ],
+        "经营现金流量净额": [
+          1
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2023年度",
+      "announcement_id": "1219873658",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+      "metrics": {
+        "营业收入": [
+          57
+        ],
+        "归母净利润": [],
+        "经营现金流量净额": [
+          19
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2024年半年度",
+      "announcement_id": "1221032897",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2024-08-29/1221032897.PDF",
+      "metrics": {
+        "营业收入": [
+          6,
+          11,
+          35
+        ],
+        "归母净利润": [
+          6
+        ],
+        "经营现金流量净额": [
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2024年三季度",
+      "announcement_id": "1221573332",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2024-10-31/1221573332.PDF",
+      "metrics": {
+        "营业收入": [
+          1,
+          7
+        ],
+        "归母净利润": [
+          1
+        ],
+        "经营现金流量净额": [
+          1
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2024年度",
+      "announcement_id": "1223311527",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223311527.PDF",
+      "metrics": {
+        "营业收入": [
+          7,
+          60
+        ],
+        "归母净利润": [
+          7
+        ],
+        "经营现金流量净额": [
+          7,
+          18,
+          66
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2025年一季度",
+      "announcement_id": "1223311586",
+      "version": "更新前",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223311586.PDF",
+      "metrics": {
+        "营业收入": [
+          1,
+          6
+        ],
+        "归母净利润": [
+          1
+        ],
+        "经营现金流量净额": [
+          1
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2025年半年度",
+      "announcement_id": "1224596951",
+      "version": "更新前",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-08-28/1224596951.PDF",
+      "metrics": {
+        "营业收入": [
+          6,
+          11,
+          36
+        ],
+        "归母净利润": [
+          6
+        ],
+        "经营现金流量净额": [
+          7,
+          12
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2025年三季度",
+      "announcement_id": "1224774300",
+      "version": "更新前",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-10-31/1224774300.PDF",
+      "metrics": {
+        "营业收入": [
+          1,
+          2,
+          6
+        ],
+        "归母净利润": [
+          1,
+          2
+        ],
+        "经营现金流量净额": [
+          1
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2025年度",
+      "announcement_id": "1225273091",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225273091.PDF",
+      "metrics": {
+        "营业收入": [
+          7,
+          56
+        ],
+        "归母净利润": [
+          7
+        ],
+        "经营现金流量净额": [
+          7,
+          17
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2026年一季度",
+      "announcement_id": "1225273099",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225273099.PDF",
+      "metrics": {
+        "营业收入": [
+          1,
+          2,
+          7
+        ],
+        "归母净利润": [
+          1,
+          2
+        ],
+        "经营现金流量净额": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2025年三季度",
+      "announcement_id": "1225273123",
+      "version": "更新后",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225273123.PDF",
+      "metrics": {
+        "营业收入": [
+          1,
+          2,
+          7
+        ],
+        "归母净利润": [
+          1,
+          2
+        ],
+        "经营现金流量净额": [
+          1
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2025年一季度",
+      "announcement_id": "1225273125",
+      "version": "更新后",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225273125.PDF",
+      "metrics": {
+        "营业收入": [
+          1,
+          2,
+          6
+        ],
+        "归母净利润": [
+          1,
+          2
+        ],
+        "经营现金流量净额": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2025年半年度",
+      "announcement_id": "1225273126",
+      "version": "更新后",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225273126.PDF",
+      "metrics": {
+        "营业收入": [
+          6,
+          12,
+          35
+        ],
+        "归母净利润": [
+          6
+        ],
+        "经营现金流量净额": [
+          7,
+          12
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2026年半年度",
+      "announcement_id": "1225531252",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531252.PDF",
+      "metrics": {
+        "营业收入": [
+          6,
+          11,
+          38
+        ],
+        "归母净利润": [
+          6
+        ],
+        "经营现金流量净额": [
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2026年三季度",
+      "announcement_id": "1225630063",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225630063.PDF",
+      "metrics": {
+        "营业收入": [
+          1,
+          2,
+          7
+        ],
+        "归母净利润": [
+          1,
+          2
+        ],
+        "经营现金流量净额": [
+          1,
+          2
+        ]
+      }
+    }
+  ],
+  "version_checks": [
+    {
+      "as_of": "2025-11-01",
+      "expected_id": "1224774300",
+      "selected_id": "1224774300",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-10-31/1224774300.PDF",
+      "passed": true,
+      "missing_metrics": [],
+      "metric_pages": {
+        "营业收入": [
+          1,
+          2,
+          6
+        ],
+        "归母净利润": [
+          1,
+          2
+        ],
+        "经营现金流量净额": [
+          1
+        ]
+      }
+    },
+    {
+      "as_of": "2026-05-01",
+      "expected_id": "1225273123",
+      "selected_id": "1225273123",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225273123.PDF",
+      "passed": true,
+      "missing_metrics": [],
+      "metric_pages": {
+        "营业收入": [
+          1,
+          2,
+          7
+        ],
+        "归母净利润": [
+          1,
+          2
+        ],
+        "经营现金流量净额": [
+          1
+        ]
+      }
+    }
+  ],
+  "accuracy": "未知",
+  "coverage_note": "空指标列表表示当前样本没有通过规则的证据；sampled=false 表示该公告没有选取样页。",
+  "fallback_note": "本轮备用解析器触发次数为零，P01 记录 OCR 候选，表格跳过记录供后续分析。",
+  "source_checks": {
+    "sample_pages_accounted": true,
+    "fragment_citations_checked": 9663,
+    "citation_errors": []
+  },
+  "duplicate_fragment_ids": 0,
+  "passed": true,
+  "fragment_file_sha256": "eda1d06b3f6a53559cedb6fd1327911f1e25d26107e37097554f117f12818245"
+}

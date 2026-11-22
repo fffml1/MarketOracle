@@ -1,0 +1,11 @@
+{
+  "fragment_file_sha256": "eda1d06b3f6a53559cedb6fd1327911f1e25d26107e37097554f117f12818245",
+  "model": "qwen3.7-text-embedding-flash",
+  "dimensions": 1024,
+  "endpoint": "https://llm-sj1goywguw2ndivp.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/embeddings",
+  "complete": true,
+  "written": 0,
+  "reused": 9663,
+  "collection": "wuliangye-0e7dd6b6ee45420a5757e35cf6c7ca09b4a5246f",
+  "count": 9663
+}

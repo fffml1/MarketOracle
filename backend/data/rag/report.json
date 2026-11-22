@@ -1,0 +1,1067 @@
+{
+  "parser": "pdfplumber/0.11.9",
+  "rule_version": "1",
+  "seconds": 51.219,
+  "integrity": {
+    "announcements": 179,
+    "verified_pdfs": 179,
+    "physical_pages": 5463,
+    "inventory_page_errors": 0,
+    "document_errors": {}
+  },
+  "sample_status": {
+    "已全部解析": 9,
+    "部分解析": 11
+  },
+  "unsampled_pages": 5443,
+  "fragments": {
+    "表格行": 102,
+    "正文": 124,
+    "更正行": 27
+  },
+  "cross_page_table_rows": 20,
+  "skip_reasons": {
+    "T02_表头或口径不明": 133,
+    "T04_数值缺少单位": 4,
+    "T03_列位置不匹配": 10,
+    "T05_数值单位冲突": 5,
+    "T08_表格无候选数值": 1,
+    "P02_疑似表外数字行": 1
+  },
+  "by_company_and_template": [
+    {
+      "company": "五粮液",
+      "template": "三季度",
+      "sample_pages": 4,
+      "pages_with_tables": 4,
+      "candidate_rows": 51,
+      "accepted_rows": 39,
+      "skipped_rows": 12,
+      "suspected_financial_pages_without_candidates": 0,
+      "fallback_attempts": 0,
+      "parse_seconds": 0.921,
+      "skip_reasons": {
+        "T02_表头或口径不明": 12
+      }
+    },
+    {
+      "company": "五粮液",
+      "template": "分红",
+      "sample_pages": 2,
+      "pages_with_tables": 0,
+      "candidate_rows": 0,
+      "accepted_rows": 0,
+      "skipped_rows": 0,
+      "suspected_financial_pages_without_candidates": 0,
+      "fallback_attempts": 0,
+      "parse_seconds": 0.203,
+      "skip_reasons": {}
+    },
+    {
+      "company": "五粮液",
+      "template": "年报",
+      "sample_pages": 2,
+      "pages_with_tables": 2,
+      "candidate_rows": 26,
+      "accepted_rows": 5,
+      "skipped_rows": 21,
+      "suspected_financial_pages_without_candidates": 0,
+      "fallback_attempts": 0,
+      "parse_seconds": 0.688,
+      "skip_reasons": {
+        "T02_表头或口径不明": 16,
+        "T05_数值单位冲突": 5,
+        "T08_表格无候选数值": 1,
+        "P02_疑似表外数字行": 1
+      }
+    },
+    {
+      "company": "五粮液",
+      "template": "补充更正",
+      "sample_pages": 3,
+      "pages_with_tables": 1,
+      "candidate_rows": 27,
+      "accepted_rows": 27,
+      "skipped_rows": 0,
+      "suspected_financial_pages_without_candidates": 1,
+      "fallback_attempts": 0,
+      "parse_seconds": 0.547,
+      "skip_reasons": {}
+    },
+    {
+      "company": "宁德时代",
+      "template": "三季度",
+      "sample_pages": 2,
+      "pages_with_tables": 2,
+      "candidate_rows": 20,
+      "accepted_rows": 19,
+      "skipped_rows": 1,
+      "suspected_financial_pages_without_candidates": 0,
+      "fallback_attempts": 0,
+      "parse_seconds": 0.328,
+      "skip_reasons": {
+        "T02_表头或口径不明": 1
+      }
+    },
+    {
+      "company": "宁德时代",
+      "template": "年报",
+      "sample_pages": 2,
+      "pages_with_tables": 2,
+      "candidate_rows": 48,
+      "accepted_rows": 3,
+      "skipped_rows": 45,
+      "suspected_financial_pages_without_candidates": 0,
+      "fallback_attempts": 0,
+      "parse_seconds": 0.766,
+      "skip_reasons": {
+        "T02_表头或口径不明": 45
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "template": "三季度",
+      "sample_pages": 2,
+      "pages_with_tables": 2,
+      "candidate_rows": 18,
+      "accepted_rows": 8,
+      "skipped_rows": 10,
+      "suspected_financial_pages_without_candidates": 0,
+      "fallback_attempts": 0,
+      "parse_seconds": 0.218,
+      "skip_reasons": {
+        "T02_表头或口径不明": 8,
+        "T04_数值缺少单位": 2
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "template": "年报",
+      "sample_pages": 3,
+      "pages_with_tables": 3,
+      "candidate_rows": 91,
+      "accepted_rows": 28,
+      "skipped_rows": 63,
+      "suspected_financial_pages_without_candidates": 0,
+      "fallback_attempts": 0,
+      "parse_seconds": 1.328,
+      "skip_reasons": {
+        "T02_表头或口径不明": 51,
+        "T04_数值缺少单位": 2,
+        "T03_列位置不匹配": 10
+      }
+    }
+  ],
+  "metric_coverage": [
+    {
+      "company": "五粮液",
+      "period": "2022年一季度",
+      "announcement_id": "1213222175",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2022-04-29/1213222175.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2022年一季度",
+      "announcement_id": "1213222203",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2022-04-29/1213222203.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2021年度",
+      "announcement_id": "1213222211",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2022-04-29/1213222211.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2022年半年度",
+      "announcement_id": "1214404547",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2022-08-26/1214404547.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2022年三季度",
+      "announcement_id": "1214937743",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2022-10-28/1214937743.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2022年度",
+      "announcement_id": "1216689063",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2023-04-29/1216689063.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2023年一季度",
+      "announcement_id": "1216689105",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2023-04-29/1216689105.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2023年半年度",
+      "announcement_id": "1217652602",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2023-08-26/1217652602.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2023年三季度",
+      "announcement_id": "1218182838",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2023-10-28/1218182838.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2024年一季度",
+      "announcement_id": "1219873652",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873652.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2023年度",
+      "announcement_id": "1219873658",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2024年半年度",
+      "announcement_id": "1221032897",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2024-08-29/1221032897.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2024年三季度",
+      "announcement_id": "1221573332",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2024-10-31/1221573332.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2024年度",
+      "announcement_id": "1223311527",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223311527.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2025年一季度",
+      "announcement_id": "1223311586",
+      "version": "更新前",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223311586.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2025年半年度",
+      "announcement_id": "1224596951",
+      "version": "更新前",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-08-28/1224596951.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2025年三季度",
+      "announcement_id": "1224774300",
+      "version": "更新前",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-10-31/1224774300.PDF",
+      "metrics": {
+        "营业收入": [
+          1,
+          2
+        ],
+        "归母净利润": [
+          1,
+          2
+        ],
+        "经营现金流量净额": [
+          1
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2025年度",
+      "announcement_id": "1225273091",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225273091.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2026年一季度",
+      "announcement_id": "1225273099",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225273099.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2025年三季度",
+      "announcement_id": "1225273123",
+      "version": "更新后",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225273123.PDF",
+      "metrics": {
+        "营业收入": [
+          1,
+          2
+        ],
+        "归母净利润": [
+          1,
+          2
+        ],
+        "经营现金流量净额": [
+          1
+        ]
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2025年一季度",
+      "announcement_id": "1225273125",
+      "version": "更新后",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225273125.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2025年半年度",
+      "announcement_id": "1225273126",
+      "version": "更新后",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225273126.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2026年半年度",
+      "announcement_id": "1225531252",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531252.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "五粮液",
+      "period": "2026年三季度",
+      "announcement_id": "1225630063",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225630063.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2021年度",
+      "announcement_id": "1213027750",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2022-04-22/1213027750.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2022年一季度",
+      "announcement_id": "1213245667",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2022-04-30/1213245667.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2022年半年度",
+      "announcement_id": "1214372189",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2022-08-24/1214372189.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2022年三季度",
+      "announcement_id": "1214865501",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2022-10-22/1214865501.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2022年度",
+      "announcement_id": "1216084559",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2023-03-10/1216084559.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2023年一季度",
+      "announcement_id": "1216489857",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216489857.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2023年半年度",
+      "announcement_id": "1217386504",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2023-07-26/1217386504.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2023年三季度",
+      "announcement_id": "1218095874",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2023-10-20/1218095874.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2023年度",
+      "announcement_id": "1219313047",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-16/1219313047.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2024年一季度",
+      "announcement_id": "1219619642",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219619642.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2024年半年度",
+      "announcement_id": "1220740372",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2024-07-27/1220740372.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2024年三季度",
+      "announcement_id": "1221432744",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2024-10-19/1221432744.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2024年度",
+      "announcement_id": "1222806982",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2025年一季度",
+      "announcement_id": "1223094849",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-15/1223094849.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2025年半年度",
+      "announcement_id": "1224342874",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-07-31/1224342874.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2025年三季度",
+      "announcement_id": "1224721971",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-10-21/1224721971.PDF",
+      "metrics": {
+        "营业收入": [
+          1
+        ],
+        "归母净利润": [
+          1
+        ],
+        "经营现金流量净额": [
+          1
+        ]
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2025年度",
+      "announcement_id": "1225002214",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2026年一季度",
+      "announcement_id": "1225107946",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-16/1225107946.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2026年半年度",
+      "announcement_id": "1225441586",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "宁德时代",
+      "period": "2026年三季度",
+      "announcement_id": "1225613175",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2021年度",
+      "announcement_id": "1212755849",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2022-03-31/1212755849.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2022年一季度",
+      "announcement_id": "1213142918",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2022-04-27/1213142918.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2022年半年度",
+      "announcement_id": "1214203817",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2022-08-03/1214203817.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2022年三季度",
+      "announcement_id": "1214804759",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2022-10-17/1214804759.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2022年度",
+      "announcement_id": "1216281757",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2023-03-31/1216281757.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2023年一季度",
+      "announcement_id": "1216595064",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2023-04-26/1216595064.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2023年半年度",
+      "announcement_id": "1217453695",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2023-08-03/1217453695.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2023年三季度",
+      "announcement_id": "1218110141",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2023-10-21/1218110141.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2023年度",
+      "announcement_id": "1219506510",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2024年一季度",
+      "announcement_id": "1219875828",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219875828.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2024年半年度",
+      "announcement_id": "1220825189",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2024-08-09/1220825189.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2024年三季度",
+      "announcement_id": "1221523519",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2024-10-26/1221523519.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2024年度",
+      "announcement_id": "1222993920",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-03/1222993920.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2025年一季度",
+      "announcement_id": "1223413786",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223413786.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2025年半年度",
+      "announcement_id": "1224462930",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-08-13/1224462930.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2025年三季度",
+      "announcement_id": "1224764517",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-10-30/1224764517.PDF",
+      "metrics": {
+        "营业收入": [
+          1
+        ],
+        "归母净利润": [
+          1
+        ],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2025年度",
+      "announcement_id": "1225114741",
+      "version": "披露版",
+      "sampled": true,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225114741.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2026年一季度",
+      "announcement_id": "1225187851",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-25/1225187851.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2026年半年度",
+      "announcement_id": "1225475868",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-15/1225475868.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    },
+    {
+      "company": "贵州茅台",
+      "period": "2026年三季度",
+      "announcement_id": "1225649896",
+      "version": "披露版",
+      "sampled": false,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649896.PDF",
+      "metrics": {
+        "营业收入": [],
+        "归母净利润": [],
+        "经营现金流量净额": []
+      }
+    }
+  ],
+  "version_checks": [
+    {
+      "as_of": "2025-11-01",
+      "expected_id": "1224774300",
+      "selected_id": "1224774300",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-10-31/1224774300.PDF",
+      "passed": true,
+      "missing_metrics": [],
+      "metric_pages": {
+        "营业收入": [
+          1,
+          2
+        ],
+        "归母净利润": [
+          1,
+          2
+        ],
+        "经营现金流量净额": [
+          1
+        ]
+      }
+    },
+    {
+      "as_of": "2026-05-01",
+      "expected_id": "1225273123",
+      "selected_id": "1225273123",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225273123.PDF",
+      "passed": true,
+      "missing_metrics": [],
+      "metric_pages": {
+        "营业收入": [
+          1,
+          2
+        ],
+        "归母净利润": [
+          1,
+          2
+        ],
+        "经营现金流量净额": [
+          1
+        ]
+      }
+    }
+  ],
+  "accuracy": "未知",
+  "coverage_note": "空指标列表表示当前样本没有通过规则的证据；sampled=false 表示该公告没有选取样页。",
+  "fallback_note": "本轮备用解析器触发次数为零，P01 记录 OCR 候选，表格跳过记录供后续分析。",
+  "source_checks": {
+    "sample_pages_accounted": true,
+    "fragment_citations_checked": 253,
+    "citation_errors": []
+  }
+}
